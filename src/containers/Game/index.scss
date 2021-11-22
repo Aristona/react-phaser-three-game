@@ -1,0 +1,33 @@
+.game-container {
+  display: flex;
+  margin: 0 auto;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+
+  .screen {
+    display: flex;
+    height: 576px;
+    width: 1024px;
+    box-sizing: border-box;
+    position: relative;
+    overflow: hidden;
+    justify-content: center;
+
+    &.popupActive {
+      opacity: .2;
+      pointer-events: none;
+    }
+  }
+
+  button.bgm {
+    padding: 4px;
+    border-radius: 6px;
+    background-color: #e40f0f;
+    color: #d9d9d9;
+    border: 1px solid rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-family: 'SoupOfJustice';
+    font-size: 24px;
+  }
+}

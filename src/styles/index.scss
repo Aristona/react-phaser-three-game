@@ -1,0 +1,18 @@
+@import "./fonts.scss";
+@import "./variables.scss";
+@import "./mixins.scss";
+
+html {
+  overflow-y: auto;
+}
+
+body {
+  margin: 0;
+  font-family: 'SoupOfJustice', sans-serif;
+  font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+* {
+  outline: none !important;
+}

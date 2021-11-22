@@ -1,0 +1,54 @@
+@import "../../styles";
+
+.com-Footer {
+  display: flex;
+  position: absolute;
+  bottom: 0;
+  left: 10%;
+  right: 10%;
+  height: 90px;
+  width: auto;
+  background-image: url("../../assets/gui/match3/down.png");
+  flex-direction: row;
+  align-items: flex-end;
+  justify-content: space-around;
+  user-select: none;
+  background-size: cover;
+  font-family: 'SoupOfJustice';
+
+  .footer-inner {
+    display: flex;
+    justify-content: space-around;
+    width: 69%;
+    height: 72%;
+
+    .button {
+      display: flex;
+      flex-direction: row;
+      align-items: center;
+      justify-content: center;
+      cursor: pointer;
+
+      &:hover {
+        transform: scale(1.15);
+        transition: 0.1s ease;
+      }
+
+      img {
+        height: 48px;
+        width: 48px;
+      }
+
+      &.disabled {
+        opacity: .3;
+        pointer-events: none;
+      }
+
+      span {
+        margin-left: 6px;
+        font-size: 23px;
+        color: #d9d9d9;
+      }
+    }
+  }
+}

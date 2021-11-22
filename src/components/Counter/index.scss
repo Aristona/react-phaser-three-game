@@ -1,0 +1,111 @@
+@import "../../styles";
+
+.com-Counter {
+  display: flex;
+  position: absolute;
+  top: 0;
+  height: calc(331px / 3.5);
+  width: calc(1536px / 3.5);
+  background-image: url("../../assets/gui/match3/up.png");
+  padding: 16px;
+  padding-top: 32px;
+  flex-direction: row;
+  border-bottom-left-radius: 35%;
+  border-bottom-right-radius: 35%;
+  align-items: center;
+  justify-content: space-around;
+  user-select: none;
+  background-size: cover;
+  margin-top: -32px;
+  font-family: 'SoupOfJustice';
+
+  .coins-box {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 27px;
+    background-image: url("../../assets/gui/match3/table_2.png");
+    background-size: cover;
+
+    &:before {
+      display: flex;
+      position: absolute;
+      top: -32px;
+      left: -44px;
+      content: "";
+      height: 96px;
+      width: 96px;
+      background-image: url("../../assets/weapons/128/coin.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h2 {
+      font-size: 25px;
+      line-height: 25px;
+    }
+  }
+
+  .dps-box {
+    display: flex;
+    position: relative;
+    align-items: center;
+    justify-content: center;
+    width: 130px;
+    height: 27px;
+    background-image: url("../../assets/gui/match3/table_2.png");
+    background-size: cover;
+    margin-left: 8px;
+
+    &:before {
+      display: flex;
+      position: absolute;
+      top: -33px;
+      left: -36px;
+      content: "";
+      height: 90px;
+      width: 90px;
+      background-image: url("../../assets/weapons/128/dagger.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+
+    h2 {
+      font-size: 25px;
+      line-height: 25px;
+    }
+  }
+
+  .moves-box {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    flex-direction: column;
+    width: 100px;
+    height: 97px;
+    background-image: url("../../assets/gui/match3/moves.png");
+    background-size: cover;
+    margin-top: 50px;
+
+    h1 {
+      font-size: 24px;
+      line-height: 24px;
+      color: #d9d9d9;
+      margin-top: 16px;
+    }
+
+    h2 {
+      font-size: 36px;
+      line-height: 36px;
+      margin-top: 8px;
+    }
+  }
+
+  h2 {
+    color: #d9d9d9;
+    font-size: 16px;
+    line-height: 20px;
+  }
+}

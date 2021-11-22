@@ -1,0 +1,84 @@
+@import "../../styles";
+
+$scale: 3.5;
+
+.com-Popup {
+  display: flex;
+  position: fixed;
+  top: 65%;
+  left: 50%;
+  transform: translate(-50%, -65%);
+  width: 1307px / $scale;
+  height: 1457px / $scale;
+  background-image: url("../../assets/gui/upgrade/bg.png");
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  user-select: none;
+  background-size: cover;
+  font-family: 'SoupOfJustice';
+
+  .popup-header {
+    display: flex;
+    top: -60px;
+    position: absolute;
+    background-image: url("../../assets/gui/upgrade/header.png");
+    width: calc(1003px / 3.7);
+    height: calc(396px / 3.7);
+    background-size: cover;
+    margin-right: 8px;
+
+    &.POPUP_SCREEN_SETTINGS {
+      background-image: url("../../assets/gui/settings/92.png");
+    }
+  }
+
+  .popup-close {
+    display: flex;
+    cursor: pointer;
+    top: -20px;
+    right: 0;
+    position: absolute;
+    background-image: url("../../assets/gui/upgrade/close_2.png");
+    width: 50px;
+    height: 49px;
+    background-size: cover;
+
+    &:hover {
+      transform: scale(1.1);
+      transition: 0.1s ease;
+    }
+  }
+
+  .popup-table {
+    display: flex;
+    margin-right: 8px;
+    margin-bottom: 8px;
+    background-image: url("../../assets/gui/upgrade/table.png");
+    width: 1102px / $scale;
+    height: 1288px / $scale;
+    background-size: cover;
+
+    .popup-table-inner {
+      display: flex;
+      flex-direction: column;
+      max-height: 100%;
+      width: 100%;
+      margin: 40px;
+      overflow-x: hidden;
+      overflow-y: auto;
+
+      &::-webkit-scrollbar {
+        width: 2px;
+      }
+
+      &::-webkit-scrollbar-track {
+        box-shadow: inset 0 0 3px rgba(0, 0, 0, 0.1);
+      }
+
+      &::-webkit-scrollbar-thumb {
+        background-color: green;
+      }
+    }
+  }
+}

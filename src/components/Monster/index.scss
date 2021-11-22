@@ -1,0 +1,567 @@
+@import "../../styles";
+
+@keyframes Fallen_Angels_1 {
+  0% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Fallen_Angels_1/Idle/0_Fallen_Angels_Idle_017.png"); }
+}
+
+@keyframes Fallen_Angels_2 {
+  0% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Fallen_Angels_2/Idle/0_Fallen_Angels_Idle_017.png"); }
+}
+
+@keyframes Fallen_Angels_3 {
+  0% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Fallen_Angels_3/Idle/0_Fallen_Angels_Idle_017.png"); }
+}
+
+@keyframes Golem_1 {
+  0% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Golem_1/Idle/0_Golem_Idle_017.png"); }
+}
+
+@keyframes Golem_2 {
+  0% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Golem_2/Idle/0_Golem_Idle_017.png"); }
+}
+
+@keyframes Golem_3 {
+  0% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Golem_3/Idle/0_Golem_Idle_017.png"); }
+}
+
+@keyframes Minotaur_1 {
+  0% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Minotaur_1/Idle/Minotaur_01_Idle_011.png"); }
+}
+
+@keyframes Minotaur_2 {
+  0% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Minotaur_2/Idle/Minotaur_02_Idle_011.png"); }
+}
+
+@keyframes Minotaur_3 {
+  0% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Minotaur_3/Idle/Minotaur_03_Idle_011.png"); }
+}
+
+@keyframes Reaper_Man_1 {
+  0% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Reaper_Man_1/Idle/0_Reaper_Man_Idle_017.png"); }
+}
+
+@keyframes Reaper_Man_2 {
+  0% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Reaper_Man_2/Idle/0_Reaper_Man_Idle_017.png"); }
+}
+
+@keyframes Reaper_Man_3 {
+  0% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_000.png"); }
+  6% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_001.png"); }
+  12% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_002.png"); }
+  18% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_003.png"); }
+  24% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_004.png"); }
+  30% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_005.png"); }
+  36% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_006.png"); }
+  42% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_007.png"); }
+  48% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_008.png"); }
+  52% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_009.png"); }
+  58% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_010.png"); }
+  64% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_011.png"); }
+  70% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_012.png"); }
+  76% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_013.png"); }
+  82% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_014.png"); }
+  88% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_015.png"); }
+  94% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_016.png"); }
+  100% { background-image: url("../../assets/monsters/Reaper_Man_3/Idle/0_Reaper_Man_Idle_017.png"); }
+}
+
+@keyframes Satyr_1 {
+  0% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Satyr_1/Idle/Satyr_01_Idle_011.png"); }
+}
+
+@keyframes Satyr_2 {
+  0% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Satyr_2/Idle/Satyr_02_Idle_011.png"); }
+}
+
+@keyframes Satyr_3 {
+  0% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Satyr_3/Idle/Satyr_03_Idle_011.png"); }
+}
+
+
+@keyframes Troll_1 {
+  0% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Troll_1/Idle/Golem_01_Idle_011.png"); }
+}
+
+@keyframes Troll_2 {
+  0% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Troll_2/Idle/Golem_02_Idle_011.png"); }
+}
+
+@keyframes Troll_3 {
+  0% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Troll_3/Idle/Golem_03_Idle_011.png"); }
+}
+
+@keyframes Wraith_1 {
+  0% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Wraith_1/Idle/Wraith_01_Idle_011.png"); }
+}
+
+@keyframes Wraith_2 {
+  0% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Wraith_2/Idle/Wraith_02_Idle_011.png"); }
+}
+
+@keyframes Wraith_3 {
+  0% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_000.png"); }
+  9% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_001.png"); }
+  18% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_002.png"); }
+  27% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_003.png"); }
+  36% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_004.png"); }
+  45% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_005.png"); }
+  54% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_006.png"); }
+  63% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_007.png"); }
+  72% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_008.png"); }
+  81% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_009.png"); }
+  90% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_010.png"); }
+  100% { background-image: url("../../assets/monsters/Wraith_3/Idle/Wraith_03_Idle_011.png"); }
+}
+
+@mixin aspectRatio-1-1 {
+  height: 200px;
+  width: 200px;
+
+  .healthbar {
+    margin-top: 20px;
+  }
+}
+
+@mixin aspectRatio-720-490 {
+  height: calc(490px / 2.5);
+  width: calc(720px / 2.5);
+
+  .healthbar {
+    margin-top: 0;
+  }
+}
+
+@mixin aspectRatio-520-420 {
+  height: calc(420px / 2);
+  width: calc(520px / 2);
+
+  .healthbar {
+    margin-top: 10px;
+  }
+}
+
+@keyframes damageReceived {
+  0% { top: -55px; opacity: 1; font-size: 42px; color: #d9d9d9; }
+  60% { top: -80px; opacity: 0; font-size: 36px; color: #d9d9d9; }
+  100% { top: -80px; opacity: 0; }
+}
+
+@keyframes damageReceivedCriticalHit {
+  0% { top: -70px; opacity: 1; font-size: 56px; color: #e40f0f; }
+  60% { top: -100px; opacity: 0; font-size: 40px; color: #e40f0f; }
+  100% { top: -100px; opacity: 0; }
+}
+
+.com-Monster {
+  display: flex;
+  position: absolute;
+  align-items: flex-start;
+  justify-content: center;
+  animation-duration: 1s;
+  animation-timing-function: linear;
+  animation-iteration-count: infinite;
+  background-repeat: no-repeat;
+  background-size: cover;
+  margin: 0;
+  @include aspectRatio-1-1();
+  transform: rotate3d(1, 180, 1, 180deg);
+
+  &.Fallen_Angels_1 {
+    animation-name: Fallen_Angels_1;
+    @include aspectRatio-1-1();
+  }
+
+  &.Fallen_Angels_2 {
+    animation-name: Fallen_Angels_2;
+    @include aspectRatio-1-1();
+  }
+
+  &.Fallen_Angels_3 {
+    animation-name: Fallen_Angels_3;
+    @include aspectRatio-1-1();
+  }
+
+  &.Golem_1 {
+    animation-name: Golem_1;
+    @include aspectRatio-1-1();
+  }
+
+  &.Golem_2 {
+    animation-name: Golem_2;
+    @include aspectRatio-1-1();
+  }
+
+  &.Golem_3 {
+    animation-name: Golem_3;
+    @include aspectRatio-1-1();
+  }
+
+  &.Minotaur_1 {
+    animation-name: Minotaur_1;
+    @include aspectRatio-720-490();
+  }
+
+  &.Minotaur_2 {
+    animation-name: Minotaur_2;
+    @include aspectRatio-720-490();
+  }
+
+  &.Minotaur_3 {
+    animation-name: Minotaur_3;
+    @include aspectRatio-720-490();
+  }
+
+  &.Reaper_Man_1 {
+    animation-name: Reaper_Man_1;
+    @include aspectRatio-1-1();
+  }
+
+  &.Reaper_Man_2 {
+    animation-name: Reaper_Man_2;
+    @include aspectRatio-1-1();
+  }
+
+  &.Reaper_Man_3 {
+    animation-name: Reaper_Man_3;
+    @include aspectRatio-1-1();
+  }
+
+  &.Satyr_1 {
+    animation-name: Satyr_1;
+    @include aspectRatio-520-420();
+  }
+
+  &.Satyr_2 {
+    animation-name: Satyr_2;
+    @include aspectRatio-520-420();
+  }
+
+  &.Satyr_3 {
+    animation-name: Satyr_3;
+    @include aspectRatio-520-420();
+  }
+
+  &.Troll_1 {
+    animation-name: Troll_1;
+    @include aspectRatio-720-490();
+  }
+
+  &.Troll_2 {
+    animation-name: Troll_2;
+    @include aspectRatio-720-490();
+  }
+
+  &.Troll_3 {
+    animation-name: Troll_3;
+    @include aspectRatio-720-490();
+  }
+
+  &.Wraith_1 {
+    animation-name: Wraith_1;
+    @include aspectRatio-520-420();
+  }
+
+  &.Wraith_2 {
+    animation-name: Wraith_2;
+    @include aspectRatio-520-420();
+  }
+
+  &.Wraith_3 {
+    animation-name: Wraith_3;
+    @include aspectRatio-520-420();
+  }
+
+  .healthbar {
+    display: flex;
+    border: 2px solid #333;
+    background: #333;
+    height: 9px;
+    width: 100px;
+    position: relative;
+
+    .damage-received {
+      display: flex;
+      position: absolute;
+      justify-content: center;
+      align-items: center;
+      font-family: 'SoupOfJustice';
+      font-weight: 400;
+      width: 100%;
+      content: "100";
+      color: #fff;
+      animation-name: damageReceived;
+      animation-duration: 1000ms;
+      animation-timing-function: linear;
+      animation-iteration-count: infinite;
+      transform: rotate3d(1, 180, 1, 180deg);
+
+      &.isCriticalHit {
+        animation-name: damageReceivedCriticalHit;
+        animation-duration: 1000ms;
+        animation-timing-function: linear;
+        animation-iteration-count: infinite;
+      }
+    }
+
+    .healthbar-inner {
+      background: #e40f0f;
+    }
+  }
+}

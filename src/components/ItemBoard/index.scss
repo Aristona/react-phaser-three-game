@@ -1,0 +1,97 @@
+@import "../../styles";
+
+@keyframes coinReceive {
+  0% { top: 0; opacity: 1 }
+  70% { top: -40px; opacity: 0 }
+  100% { top: -40px; opacity: 0 }
+}
+
+.com-ItemBoard {
+  display: flex;
+  flex-wrap: wrap;
+  position: absolute;
+  top: 238px;
+  height: auto;
+  width: calc(76px * 5);
+  left: 80px;
+  margin: 0;
+  justify-content: flex-start;
+  align-items: flex-start;
+  align-self: flex-end;
+
+  .item {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    height: 68px;
+    width: 68px;
+    border: 2px solid rgba(0, 0, 0, .1);
+    user-select: none;
+    cursor: pointer;
+    position: relative;
+    margin: 4px;
+
+    &:hover {
+      border-color: rgba(0, 0, 0, .33);
+    }
+
+    &.clicked {
+      border-color: green;
+
+      &:hover {
+        border-color: green
+      }
+    }
+
+    &.highlight:before {
+      display: flex;
+      position: absolute;
+      top: 0;
+      content: "";
+      color: #fff;
+      height: 68px;
+      width: 68px;
+      background-image: url("../../assets/weapons/64/coin.png");
+      background-repeat: no-repeat;
+      background-size: cover;
+      animation-name: coinReceive;
+      animation-duration: 800ms;
+      animation-timing-function: linear;
+      animation-iteration-count: 1;
+    }
+
+    .item-stats {
+      display: flex;
+      position: absolute;
+      left: 0;
+      right: 0;
+      top: 0;
+      flex-direction: row;
+      font-size: 18px;
+      line-height: 18px;
+      width: 100%;
+      height: auto;
+
+      .item-damage {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        background: rgba(0, 0, 0, .25);
+        color: #e40f0f;
+        font-family: 'SoupOfJustice';
+      }
+
+      .item-coin {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex: 1;
+        background: rgba(0, 0, 0, .25);
+        color: #e09710;
+        font-family: 'SoupOfJustice';
+        border-left: 1px solid rgba(0, 0, 0, .1);
+      }
+    }
+  }
+}

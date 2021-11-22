@@ -1,0 +1,125 @@
+@import "../../styles";
+
+$scale: 4;
+
+:root {
+  --tutorial-padding: 40px;
+}
+
+.com-Tutorial {
+  display: flex;
+  position: absolute;
+  top: 0;
+  left: 0;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  user-select: none;
+  background-size: cover;
+  font-family: 'SoupOfJustice';
+  padding: var(--tutorial-padding);
+  background-image: url("../../assets/gui/upgrade/table.png");
+  background-size: cover;
+  width: 1102px / $scale;
+  height: 1288px / $scale;
+
+  .tutorial-content {
+    display: flex;
+    width: 100%;
+    height: 100%;
+    flex-direction: column;
+    align-items: flex-start;
+  }
+
+  &.step-0 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+
+  &.step-1 {
+    top: 20%;
+    left: 90%;
+    transform: translate(-90%, -20%);
+    width: 1102px / $scale;
+    height: 1288px / $scale;
+
+    h1 {
+      top: calc(-10% - var(--tutorial-padding));
+      left: 0px;
+    }
+  }
+
+  &.step-2 {
+    top: 75%;
+    left: 75%;
+    transform: translate(-75%, -75%);
+    width: 1102px / $scale;
+    height: 1288px / $scale;
+
+    h1 {
+      top: calc(50% - var(--tutorial-padding));
+      left: calc(var(--tutorial-padding) * -2.3);
+    }
+  }
+
+  &.step-3,
+  &.step-4 {
+    top: 45%;
+    left: 45%;
+    transform: translate(-45%, -45%);
+    width: 1102px / $scale;
+    height: 1288px / $scale;
+
+    h1 {
+      top: calc(50% - var(--tutorial-padding));
+      left: calc(var(--tutorial-padding) * -2.3);
+    }
+  }
+
+  &.step-4 {
+    button.next {
+      display: none;
+    }
+  }
+
+  &.step-5,
+  &.step-6,
+  &.step-7 {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 1102px / $scale;
+    height: 1288px / $scale;
+
+    h1 {
+      display: none;
+    }
+  }
+
+  .yellow-number {
+    color: #e09710;
+  }
+
+  .red-number {
+    color: #e40f0f;
+  }
+
+  button.next {
+    padding: 4px;
+    border-radius: 6px;
+    background-color: #e40f0f;
+    color: #d9d9d9;
+    border: 1px solid rgba(0, 0, 0, .3);
+    cursor: pointer;
+    font-family: 'SoupOfJustice';
+    font-size: 24px;
+  }
+
+  h1 {
+    position: absolute;
+    font-size: 80px;
+    line-height: 80px;
+    color: red;
+  }
+}
