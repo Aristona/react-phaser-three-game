@@ -7,12 +7,7 @@ import {
 } from "constants"
 
 const initialState = {
-  language: LANGUAGE_DEFAULT,
-  operationCenters: [],
-  sectors: [],
-  missionTypes: [],
-  locations: [],
-  operationRegions: [],
+  language: LANGUAGE_DEFAULT
 }
 
 export default function app(state = initialState, action) {
